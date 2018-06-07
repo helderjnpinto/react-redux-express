@@ -1,12 +1,10 @@
 {
-  "name": "react-redux-express",
-  "description": "React isomorphic app test",
-  "main": "index.js",
+  "name": "react-express-examplar",
+  "version": "0.0.0",
   "authors": [
-    "hjnp <hp_ctt@hotmail.com>"
+    "Daniel Stern <daniel@danielstern.ca>"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/helderjnpinto/react-redux-express",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,6 +13,12 @@
     "tests"
   ],
   "dependencies": {
-    "react": "^16.1.0"
+    "react": "~0.13.3",
+    "es6-shim": "~0.32.0",
+    "jquery": "~2.1.4",
+    "skeleton": "~2.0.4"
+  },
+  "resolutions": {
+    "es6-shim": "~0.31.2"
   }
 }
