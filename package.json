@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/helderjnpinto/react-redux-express/issues"
   },
-  "homepage": "https://github.com/helderjnpinto/react-redux-express#readme"
+  "homepage": "https://github.com/helderjnpinto/react-redux-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.31"
+  }
 }
