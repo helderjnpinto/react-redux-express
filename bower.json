@@ -1,0 +1,17 @@
+{
+  "name": "react-redux-express",
+  "description": "React isomorphic app test",
+  "main": "index.js",
+  "authors": [
+    "hjnp <hp_ctt@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/helderjnpinto/react-redux-express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
