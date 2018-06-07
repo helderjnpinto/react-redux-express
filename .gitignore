@@ -1,3 +1,7 @@
+#bower stuff
+bower_components
+
+
 # Logs
 logs
 *.log
