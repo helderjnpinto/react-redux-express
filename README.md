@@ -6,3 +6,5 @@ React isomorphic app test
 - install gulp as global
     npm i -g gulp
 
+- install jsx tools global
+    npm i -g react-tools
