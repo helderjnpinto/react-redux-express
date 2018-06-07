@@ -1,3 +1,11 @@
-var react = require("react/addons");
+var React = require('react');
 
-React.createClass()
+module.exports = React.createClass({
+    render: function() {
+        return (
+            <div>
+                <h1>Grocery listify</h1>
+            </div>
+        );
+    }
+})

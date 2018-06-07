@@ -13,12 +13,7 @@ gulp.task("live-server", function() {
   server.start();
 });
 
-gulp.task("serve", ["live-server"], function() {
-  browsersync.init(null, {
-    proxy: "http://localhost:7777",
-    port: 9001
-  });
-});
+
 
 gulp.task("bundle", function() {
   return browserify({
@@ -31,3 +26,9 @@ gulp.task("bundle", function() {
     .pipe(gulp.dest("./.tmp"));
 });
 
+gulp.task("serve", ["bundle", "live-server"], function() {
+  browsersync.init(null, {
+    proxy: "http://localhost:8888",
+    port: 9001
+  });
+});
